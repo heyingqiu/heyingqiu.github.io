@@ -1,2 +1,0 @@
-# heyingqiu.github.io
-homepage
