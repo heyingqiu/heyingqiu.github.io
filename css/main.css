@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: rgb(239, 239, 239);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+/* navagation */
+nav {
+    background-color: darkgray;
+}
+nav a {
+    text-align: center;
+}
+nav a:hover{
+    background-color: lightgray;
+}
+
+/* main content */
+h1, h2, h3, h4 {
+    color: rgb(31, 31, 31);
+    margin: 2px
+}
+
+p {
+    margin: 3px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: right;
+    width: 25%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
