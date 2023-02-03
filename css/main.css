@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 body{
     background-color:rgb(218, 224, 230);
 }
 
-header {
-    padding: 20px;
+.header {
+    margin: 20px;
+    padding: 40px;
     text-align: center;
     background-color: white;
     font-family: Cursive;
@@ -16,6 +17,8 @@ header {
 
 /* navagation */
 ul.topnav {
+    float: center;
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,33 +70,14 @@ div.content {
     color: rgb(255, 255, 255);
     padding:  12px 16px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
 .dropdown-content a:hover {background-color: #3c7ec4;}
 
 .dropdown:hover .dropdown-content {
-    display: block;
-}
-@media screen and (max-width: 900px) {
-    ul.topnav {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    ul.topnav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 300px) {
-    ul.topnav li a {
-        text-align: center;
-        float: none;
-    }
+    display: inline-block;
 }
 
 
@@ -101,12 +85,23 @@ div.content {
 /* main content */
 h1, h2, h3, h4 {
     color: rgb(31, 31, 31);
-    margin: 2px
+    margin: 5p;
+    padding-top: 10px; 
 }
 
 p {
     margin: 3px;
 }
+
+.scroll {
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(59, 119, 215);
+    margin: 5px;
+}
+
 
 
 .leftcolumn {
@@ -119,7 +114,6 @@ p {
     width: 25%;
 }
 
-
 .row:after {
     content: "";
     display: table;
@@ -127,8 +121,22 @@ p {
 }
 
 .footer {
-    padding: 20px;
+    margin: 20px;
+    padding: 40px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin-top: 20px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 100px) {
+    ul.topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
 }
