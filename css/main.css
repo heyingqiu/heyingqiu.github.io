@@ -83,14 +83,14 @@ div.content {
 
 
 /* main content */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     color: rgb(31, 31, 31);
-    margin: 5p;
+    margin: 10px;
     padding-top: 10px; 
 }
 
 p {
-    margin: 3px;
+    margin: 10px;
 }
 
 .scroll {
