@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>捡起坏心情 on 板栗小栈</title>
+    <link>http://localhost:1313/zh/categories/%E6%8D%A1%E8%B5%B7%E5%9D%8F%E5%BF%83%E6%83%85/</link>
+    <description>Recent content in 捡起坏心情 on 板栗小栈</description>
+    <image>
+      <title>板栗小栈</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 08 Mar 2024 21:01:56 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/categories/%E6%8D%A1%E8%B5%B7%E5%9D%8F%E5%BF%83%E6%83%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>近期坏心情（别点）</title>
+      <link>http://localhost:1313/zh/posts/y24-3-saddddd/</link>
+      <pubDate>Fri, 08 Mar 2024 21:01:56 +0800</pubDate>
+      <guid>http://localhost:1313/zh/posts/y24-3-saddddd/</guid>
+      <description>&lt;p&gt;二十二岁有二十二岁的烦恼。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

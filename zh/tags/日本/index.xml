@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>日本 on 板栗小栈</title>
+    <link>https://heyingqiu.github.io/zh/tags/%E6%97%A5%E6%9C%AC/</link>
+    <description>Recent content in 日本 on 板栗小栈</description>
+    <image>
+      <title>板栗小栈</title>
+      <url>https://heyingqiu.github.io/images/papermod-cover.png</url>
+      <link>https://heyingqiu.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://heyingqiu.github.io/zh/tags/%E6%97%A5%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>好用的链接 之 日本留学篇</title>
+      <link>https://heyingqiu.github.io/zh/posts/y24/y24-jpphysics/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyingqiu.github.io/zh/posts/y24/y24-jpphysics/</guid>
+      <description>&lt;p&gt;日本留学信息获取。（侧重物理专业）&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

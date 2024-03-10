@@ -2,17 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:60904/en/sitemap.xml</loc>
+    <loc>https://heyingqiu.github.io/en/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:60904/fr/sitemap.xml</loc>
+    <loc>https://heyingqiu.github.io/zh/sitemap.xml</loc>
     
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:60904/fa/sitemap.xml</loc>
+      <lastmod>2024-03-10T00:00:00+00:00</lastmod>
     
   </sitemap>
   
