@@ -39,6 +39,16 @@
                 />
   </url><url>
     <loc>https://heyingqiu.github.io/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://heyingqiu.github.io/zh/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heyingqiu.github.io/en/search/"
+                />
   </url><url>
     <loc>https://heyingqiu.github.io/en/series/</loc>
     <xhtml:link

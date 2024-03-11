@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyingqiu.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>板栗小栈，有空来坐 [pinned]</title>
@@ -22,44 +22,47 @@
     </item>
     <item>
       <title>物理笔记分享 [pinned]</title>
-      <link>https://heyingqiu.github.io/zh/posts/y24-studynote/</link>
+      <link>https://heyingqiu.github.io/zh/posts/learn/y24-studynote/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/y24-studynote/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/y24-studynote/</guid>
       <description>&lt;p&gt;学习笔记更新记录。（持续更新）&lt;/p&gt;</description>
     </item>
     <item>
       <title>好用的链接 之 建立小站篇</title>
-      <link>https://heyingqiu.github.io/zh/posts/y24-links/</link>
+      <link>https://heyingqiu.github.io/zh/posts/learn/y24-links/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/y24-links/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/y24-links/</guid>
       <description>&lt;p&gt;如何建立 Hugo+GitHub 小站？有哪些有趣的博主？来让大神祝你一臂之力。&lt;/p&gt;</description>
     </item>
     <item>
       <title>好用的链接 之 日本留学篇</title>
-      <link>https://heyingqiu.github.io/zh/posts/y24-jpphysics/</link>
+      <link>https://heyingqiu.github.io/zh/posts/learn/y24-jpphysics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/y24-jpphysics/</guid>
-      <description>&lt;p&gt;日本留学信息获取。（侧重物理专业）&lt;/p&gt;</description>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/y24-jpphysics/</guid>
+      <description>&lt;p&gt;日本留学信息获取。（侧重物理专业）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本人二流学院物理小菜鸡，不要信我。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>好用的链接 之 物理学篇</title>
-      <link>https://heyingqiu.github.io/zh/posts/y24-linksphysics/</link>
+      <link>https://heyingqiu.github.io/zh/posts/learn/y24-linksphysics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/y24-linksphysics/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/y24-linksphysics/</guid>
       <description>&lt;p&gt;自学物理？&lt;/p&gt;</description>
     </item>
     <item>
       <title>近期坏心情（别点）</title>
-      <link>https://heyingqiu.github.io/zh/posts/y24/y24-3-saddddd/</link>
+      <link>https://heyingqiu.github.io/zh/posts/garbage/y24-3-saddddd/</link>
       <pubDate>Fri, 08 Mar 2024 21:01:56 +0800</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/y24/y24-3-saddddd/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/garbage/y24-3-saddddd/</guid>
       <description>&lt;p&gt;二十二岁有二十二岁的烦恼。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>噩梦两则 💭</title>
-      <link>https://heyingqiu.github.io/zh/posts/y24/y24-3-dream1/</link>
+      <title>噩梦两则</title>
+      <link>https://heyingqiu.github.io/zh/posts/action/y24-3-dream1/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/y24/y24-3-dream1/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/action/y24-3-dream1/</guid>
       <description>&lt;p&gt;年后，刚回学校才第二个星期状态就不好了，感觉头上压着很多东西。于是乎，昨天就一个晚上做了两个不同的噩梦……（蓝瘦香菇&lt;/p&gt;</description>
     </item>
   </channel>
