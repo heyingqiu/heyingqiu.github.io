@@ -14,11 +14,25 @@
     <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://heyingqiu.github.io/zh/tags/cosmology/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>宇宙学笔记</title>
-      <link>https://heyingqiu.github.io/zh/posts/learn/y24-03-cosmos/</link>
+      <title>宇宙学笔记：Ⅰ 宇宙膨胀</title>
+      <link>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson1/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/learn/y24-03-cosmos/</guid>
-      <description>&lt;p&gt;什么是宇宙？待填坑。&lt;/p&gt;</description>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson1/</guid>
+      <description>&lt;p&gt;1~3章&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>宇宙学笔记：Ⅱ 结构演化</title>
+      <link>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson2/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson2/</guid>
+      <description>&lt;p&gt;4~7章&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>宇宙学笔记：Ⅲ 结构生长</title>
+      <link>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/</guid>
+      <description>&lt;p&gt;8~14章&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

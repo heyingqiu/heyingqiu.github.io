@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://heyingqiu.github.io/zh/posts/learn/cosmology/</loc>
+    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://heyingqiu.github.io/zh/posts/action/y24-intro/</loc>
     <lastmod>2024-03-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -71,7 +74,13 @@
     <loc>https://heyingqiu.github.io/zh/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://heyingqiu.github.io/zh/posts/learn/y24-03-cosmos/</loc>
+    <loc>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson1/</loc>
+    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson2/</loc>
+    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/</loc>
     <lastmod>2024-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://heyingqiu.github.io/zh/posts/learn/y24-masterphy/</loc>

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>宇宙学笔记：Ⅲ 结构生长 | 板栗小店</title>
+<meta name="keywords" content="Physics, Cosmology, 笔记">
+<meta name="description" content="8~14章">
+<meta name="author" content="Y. He">
+<link rel="canonical" href="https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <meta name="referrer" content="no-referrer-when-downgrade">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2102433e17f31a2ca552d514b7d5e616f702eaf0aee4192e57c3d9b21f138bad.css" integrity="" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://heyingqiu.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://heyingqiu.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://heyingqiu.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://heyingqiu.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://heyingqiu.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="alternate" hreflang="zh" href="https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
+<meta property="og:title" content="宇宙学笔记：Ⅲ 结构生长" />
+<meta property="og:description" content="8~14章" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/" /><meta property="og:image" content="https://heyingqiu.github.io/images/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-03-12T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://heyingqiu.github.io/images/papermod-cover.png"/>
+
+<meta name="twitter:title" content="宇宙学笔记：Ⅲ 结构生长"/>
+<meta name="twitter:description" content="8~14章"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": " ✒️ 文章",
+      "item": "https://heyingqiu.github.io/zh/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "📖 学",
+      "item": "https://heyingqiu.github.io/zh/posts/learn/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "🌌 宇宙学",
+      "item": "https://heyingqiu.github.io/zh/posts/learn/cosmology/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  4 ,
+      "name": "宇宙学笔记：Ⅲ 结构生长",
+      "item": "https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "宇宙学笔记：Ⅲ 结构生长",
+  "name": "宇宙学笔记：Ⅲ 结构生长",
+  "description": "8~14章\n",
+  "keywords": [
+    "Physics", "Cosmology", "笔记"
+  ],
+  "articleBody": "8~14章\n🌰\n8 结构生长：线性理论 上几章节已经建立出相关的爱因斯坦-玻尔兹曼方程以及初始条件，现在需要求解出这些方程的解。本章重点在在CDM的能量密度和速度的微扰方程。最终目标是求解线性的物质功率谱。\n8.1 Prelude 引力充当的是吸引力，而宇宙背景加速膨胀以及重子和光子释放压力充当的是排斥作用。宇宙可以被分为三个阶段，第一阶段辐射主导，第二阶段辐射主导进入物质主导，第三阶段为物质主导。值得注意的是，第三阶段所有的模数都是相同的。可以写出引力势能微扰的方程是关于初始曲率微扰、转移函数以及增长因子的方程。\n转移函数是关于视界重叠和辐射与物质转换时期的微扰的演化方程，它与波数有关，等于后期的引力势能除以大尺度下后期的引力势能，因此在大尺度结构下，即波数很小的情况下，转移函数等于1。增长因子定义为任何时期的引力势能除以后期的引力势能乘以尺度因子。由以上两个约定写出引力势能：\n$$ \\begin{equation*} \\Phi(\\boldsymbol{k},a)=\\frac{3}{5}\\mathcal{R}(\\boldsymbol{k}) T(\\boldsymbol{{k}})\\frac{D_+(a)}{a} \\qquad (a\u003ea_{\\rm late}) \\end{equation*}. $$\n下面再联立以求得的关于物质的场方程，得出能量密度关于三个函数的方程。根据第7章求得的线性曲率功率谱，在傅里叶空间下可以直接写出物质功率谱。数值解画图得，功率谱有关于红移与波数。\n$$P_L(k,a)$$\n下面对玻尔兹曼方程进行求解。首先做两个近似，其一忽略光子除单极矩和偶极矩的极矩，其二为忽略中微子影响，写出近似下的玻尔兹曼方程和爱因斯坦场方程。因为对所有领域求解析解很困难，因此先分为三个部分求解：超视界，视界进入、亚视界演化。\n8.2 Large Scale 对于超视界解，此时宇宙在辐射的主导下，波数很小，因此乘以波数的项也可以忽略。辐射与CDM的模型下，通过引入新变量等一系列变换下，可以解出引力势的解析解。然后宇宙在进入视界交界处，辐射不再重要，由物质进行主导，此时忽略辐射项，可以写出有关引力势的微分方程。\n8.3 Small Scale 在小尺度结构下，在视界处前还是由辐射主导，但是波数有不可忽略，解得发现是关于贝塞尔函数的表达式。作图可明显得看后后期有很多振动，这是由于一旦模在辐射主导的时期进入了视界，势能就会开始振荡然后衰减，就像在光子-重子流中的能量密度微扰。物理上，这些振荡就是一种声波，它由引力势能微扰在进入视界后被产生。将傅里叶空间转换到位形空间，可以得到这是一种衰减的驻波。（重子声学振荡？）对于亚视界演化，不再含有辐射，此时若忽略重子，则只有CDM，可以写出能量密度的Meszaro微分方程。该方程解由增长因子组成。\n8.4 The transfer function 将上一小节解出的能量密度代入第一小节设的能量密度联立，可以求出转移函数。\n8.5 The growth factor 物质微扰的增长因子由宇宙学常数引入。\n8.6 Beyond cold dark matter and radiation 以上只考虑了CDM和辐射，事实上还有重子、有质量的中微子以及暗物质的影响。有两个事实可以说明重子的存在，首先转移函数在没有重子的情况下在小尺度上被抑制，第二由转移函数图可知由重子产生的振荡，并且该振荡在逐渐衰退。在与光子解耦之后，重子和暗物质类似，可以用相同的方程求解。有质量的中微子一方面影响了能量密度的演化，另一方面它使小尺度结构增长变缓。微扰在后期的演化影响了增长因子，而暗能量的演化又影响了微扰，因此在后期暗能量的作用也不可忽视。\n9 微波背景辐射 10 极化的CMB 11 结构的探针：tracer 12 非线性理论 13 结构的探针：lensing 14 分析和推断 🌰\n",
+  "wordCount" : "60",
+  "inLanguage": "zh",
+  "datePublished": "2024-03-12T00:00:00Z",
+  "dateModified": "2024-03-12T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Y. He"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "板栗小店",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://heyingqiu.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://heyingqiu.github.io/zh/" accesskey="h" title="板栗小店 (Alt + H)">板栗小店</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://heyingqiu.github.io/en/" title="English"
+                            aria-label="En">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://heyingqiu.github.io/zh/search" title="搜索">
+                    <span>🔍</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://heyingqiu.github.io/zh/posts/" title="所有文章">
+                    <span>✒️</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://heyingqiu.github.io/zh/archives/" title="时间轴归档">
+                    <span>📆</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://heyingqiu.github.io/zh/about/" title="板栗介绍">
+                    <span>🌰</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://heyingqiu.github.io/zh/">主页</a>&nbsp;»&nbsp;<a href="https://heyingqiu.github.io/zh/posts/"> ✒️ 文章</a>&nbsp;»&nbsp;<a href="https://heyingqiu.github.io/zh/posts/learn/">📖 学</a>&nbsp;»&nbsp;<a href="https://heyingqiu.github.io/zh/posts/learn/cosmology/">🌌 宇宙学</a></div>
+    <h1 class="post-title entry-hint-parent">
+      宇宙学笔记：Ⅲ 结构生长
+    </h1>
+    <div class="post-meta">
+
+创建:&nbsp;<span title='2024-03-12 00:00:00 +0000 UTC'>2024-03-12</span>&nbsp;|&nbsp;更新:&nbsp;2024-03-12
+      &nbsp;|&nbsp;🗂️&nbsp;
+      <ul class="post-tags-meta">
+        <a href="https://heyingqiu.github.io/zh/categories/physics-study/">Physics Study</a>
+      </ul>
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details >
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#8-%e7%bb%93%e6%9e%84%e7%94%9f%e9%95%bf%e7%ba%bf%e6%80%a7%e7%90%86%e8%ae%ba" aria-label="8 结构生长：线性理论">8 结构生长：线性理论</a><ul>
+                            
+                    <li>
+                        <a href="#81-prelude" aria-label="8.1 Prelude">8.1 Prelude</a></li>
+                    <li>
+                        <a href="#82-large-scale" aria-label="8.2 Large Scale">8.2 Large Scale</a></li>
+                    <li>
+                        <a href="#83-small-scale" aria-label="8.3 Small Scale">8.3 Small Scale</a></li>
+                    <li>
+                        <a href="#84-the-transfer-function" aria-label="8.4 The transfer function">8.4 The transfer function</a></li>
+                    <li>
+                        <a href="#85-the-growth-factor" aria-label="8.5 The growth factor">8.5 The growth factor</a></li>
+                    <li>
+                        <a href="#86-beyond-cold-dark-matter-and-radiation" aria-label="8.6 Beyond cold dark matter and radiation">8.6 Beyond cold dark matter and radiation</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#9-%e5%be%ae%e6%b3%a2%e8%83%8c%e6%99%af%e8%be%90%e5%b0%84" aria-label="9 微波背景辐射">9 微波背景辐射</a></li>
+                    <li>
+                        <a href="#10-%e6%9e%81%e5%8c%96%e7%9a%84cmb" aria-label="10 极化的CMB">10 极化的CMB</a></li>
+                    <li>
+                        <a href="#11-%e7%bb%93%e6%9e%84%e7%9a%84%e6%8e%a2%e9%92%88tracer" aria-label="11 结构的探针：tracer">11 结构的探针：tracer</a></li>
+                    <li>
+                        <a href="#12-%e9%9d%9e%e7%ba%bf%e6%80%a7%e7%90%86%e8%ae%ba" aria-label="12 非线性理论">12 非线性理论</a></li>
+                    <li>
+                        <a href="#13-%e7%bb%93%e6%9e%84%e7%9a%84%e6%8e%a2%e9%92%88lensing" aria-label="13 结构的探针：lensing">13 结构的探针：lensing</a></li>
+                    <li>
+                        <a href="#14-%e5%88%86%e6%9e%90%e5%92%8c%e6%8e%a8%e6%96%ad" aria-label="14 分析和推断">14 分析和推断</a>
+                    </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
+  <div class="post-content"><p>8~14章</p>
+<p><br><p style="text-align: center;">🌰</p><br></p>
+<h2 id="8-结构生长线性理论">8 结构生长：线性理论<a hidden class="anchor" aria-hidden="true" href="#8-结构生长线性理论">#</a></h2>
+<p>上几章节已经建立出相关的爱因斯坦-玻尔兹曼方程以及初始条件，现在需要求解出这些方程的解。本章重点在在CDM的能量密度和速度的微扰方程。最终目标是求解线性的物质功率谱。</p>
+<h3 id="81-prelude">8.1 Prelude<a hidden class="anchor" aria-hidden="true" href="#81-prelude">#</a></h3>
+<p>引力充当的是吸引力，而宇宙背景加速膨胀以及重子和光子释放压力充当的是排斥作用。宇宙可以被分为三个阶段，第一阶段辐射主导，第二阶段辐射主导进入物质主导，第三阶段为物质主导。值得注意的是，第三阶段所有的模数都是相同的。可以写出引力势能微扰的方程是关于初始曲率微扰、转移函数以及增长因子的方程。</p>
+<p>转移函数是关于视界重叠和辐射与物质转换时期的微扰的演化方程，它与波数有关，等于后期的引力势能除以大尺度下后期的引力势能，因此在大尺度结构下，即波数很小的情况下，转移函数等于1。增长因子定义为任何时期的引力势能除以后期的引力势能乘以尺度因子。由以上两个约定写出引力势能：</p>
+<p>$$
+\begin{equation*}
+\Phi(\boldsymbol{k},a)=\frac{3}{5}\mathcal{R}(\boldsymbol{k}) T(\boldsymbol{{k}})\frac{D_+(a)}{a} \qquad (a&gt;a_{\rm late})
+\end{equation*}.
+$$</p>
+<p>下面再联立以求得的关于物质的场方程，得出能量密度关于三个函数的方程。根据第7章求得的线性曲率功率谱，在傅里叶空间下可以直接写出物质功率谱。数值解画图得，功率谱有关于红移与波数。</p>
+<p>$$P_L(k,a)$$</p>
+<p>下面对玻尔兹曼方程进行求解。首先做两个近似，其一忽略光子除单极矩和偶极矩的极矩，其二为忽略中微子影响，写出近似下的玻尔兹曼方程和爱因斯坦场方程。因为对所有领域求解析解很困难，因此先分为三个部分求解：超视界，视界进入、亚视界演化。</p>
+<h3 id="82-large-scale">8.2 Large Scale<a hidden class="anchor" aria-hidden="true" href="#82-large-scale">#</a></h3>
+<p>对于超视界解，此时宇宙在辐射的主导下，波数很小，因此乘以波数的项也可以忽略。辐射与CDM的模型下，通过引入新变量等一系列变换下，可以解出引力势的解析解。然后宇宙在进入视界交界处，辐射不再重要，由物质进行主导，此时忽略辐射项，可以写出有关引力势的微分方程。</p>
+<h3 id="83-small-scale">8.3 Small Scale<a hidden class="anchor" aria-hidden="true" href="#83-small-scale">#</a></h3>
+<p>在小尺度结构下，在视界处前还是由辐射主导，但是波数有不可忽略，解得发现是关于贝塞尔函数的表达式。作图可明显得看后后期有很多振动，这是由于一旦模在辐射主导的时期进入了视界，势能就会开始振荡然后衰减，就像在光子-重子流中的能量密度微扰。物理上，这些振荡就是一种声波，它由引力势能微扰在进入视界后被产生。将傅里叶空间转换到位形空间，可以得到这是一种衰减的驻波。（重子声学振荡？）对于亚视界演化，不再含有辐射，此时若忽略重子，则只有CDM，可以写出能量密度的Meszaro微分方程。该方程解由增长因子组成。</p>
+<h3 id="84-the-transfer-function">8.4 The transfer function<a hidden class="anchor" aria-hidden="true" href="#84-the-transfer-function">#</a></h3>
+<p>将上一小节解出的能量密度代入第一小节设的能量密度联立，可以求出转移函数。</p>
+<h3 id="85-the-growth-factor">8.5 The growth factor<a hidden class="anchor" aria-hidden="true" href="#85-the-growth-factor">#</a></h3>
+<p>物质微扰的增长因子由宇宙学常数引入。</p>
+<h3 id="86-beyond-cold-dark-matter-and-radiation">8.6 Beyond cold dark matter and radiation<a hidden class="anchor" aria-hidden="true" href="#86-beyond-cold-dark-matter-and-radiation">#</a></h3>
+<p>以上只考虑了CDM和辐射，事实上还有重子、有质量的中微子以及暗物质的影响。有两个事实可以说明重子的存在，首先转移函数在没有重子的情况下在小尺度上被抑制，第二由转移函数图可知由重子产生的振荡，并且该振荡在逐渐衰退。在与光子解耦之后，重子和暗物质类似，可以用相同的方程求解。有质量的中微子一方面影响了能量密度的演化，另一方面它使小尺度结构增长变缓。微扰在后期的演化影响了增长因子，而暗能量的演化又影响了微扰，因此在后期暗能量的作用也不可忽视。</p>
+<h2 id="9-微波背景辐射">9 微波背景辐射<a hidden class="anchor" aria-hidden="true" href="#9-微波背景辐射">#</a></h2>
+<h2 id="10-极化的cmb">10 极化的CMB<a hidden class="anchor" aria-hidden="true" href="#10-极化的cmb">#</a></h2>
+<h2 id="11-结构的探针tracer">11 结构的探针：tracer<a hidden class="anchor" aria-hidden="true" href="#11-结构的探针tracer">#</a></h2>
+<h2 id="12-非线性理论">12 非线性理论<a hidden class="anchor" aria-hidden="true" href="#12-非线性理论">#</a></h2>
+<h2 id="13-结构的探针lensing">13 结构的探针：lensing<a hidden class="anchor" aria-hidden="true" href="#13-结构的探针lensing">#</a></h2>
+<h2 id="14-分析和推断">14 分析和推断<a hidden class="anchor" aria-hidden="true" href="#14-分析和推断">#</a></h2>
+<p><br><p style="text-align: right;">🌰</p></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://heyingqiu.github.io/zh/tags/physics/">Physics</a></li>
+      <li><a href="https://heyingqiu.github.io/zh/tags/cosmology/">Cosmology</a></li>
+      <li><a href="https://heyingqiu.github.io/zh/tags/%E7%AC%94%E8%AE%B0/">笔记</a></li>
+    </ul>
+    <div class="breadcrumbs"><a href="https://heyingqiu.github.io/zh/">主页</a>&nbsp;»&nbsp;<a href="https://heyingqiu.github.io/zh/posts/"> ✒️ 文章</a>&nbsp;»&nbsp;<a href="https://heyingqiu.github.io/zh/posts/learn/">📖 学</a>&nbsp;»&nbsp;<a href="https://heyingqiu.github.io/zh/posts/learn/cosmology/">🌌 宇宙学</a></div>
+<nav class="paginav">
+  <a class="prev" href="https://heyingqiu.github.io/zh/posts/learn/cosmology/y24-03-dodelson2/">
+    <span class="title">« 上一篇</span>
+    <br>
+    <span>宇宙学笔记：Ⅱ 结构演化</span>
+  </a>
+  <a class="next" href="https://heyingqiu.github.io/zh/posts/learn/y24-masterphy/">
+    <span class="title">下一篇 »</span>
+    <br>
+    <span>JP Physics Master 申请</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy;2024-2024 <a href="https://heyingqiu.github.io/zh/">板栗小店</a></span>
+   
+ 
+    
+    
+      <span id="busuanzi_container_site_pv">
+        <span id="busuanzi_value_site_pv"></span> views
+      </span>
+    
+    </div></footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
