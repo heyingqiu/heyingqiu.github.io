@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>School on 板栗小店</title>
-    <link>http://localhost:1313/zh/tags/school/</link>
+    <link>https://heyingqiu.github.io/zh/tags/school/</link>
     <description>Recent content in School on 板栗小店</description>
     <image>
       <title>板栗小店</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://heyingqiu.github.io/images/papermod-cover.png</url>
+      <link>https://heyingqiu.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/tags/school/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyingqiu.github.io/zh/tags/school/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>物理笔记分享 [pinned]</title>
-      <link>http://localhost:1313/zh/posts/learn/y24-studynote/</link>
+      <link>https://heyingqiu.github.io/zh/posts/learn/y24-studynote/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/learn/y24-studynote/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/learn/y24-studynote/</guid>
       <description>&lt;p&gt;学习笔记更新记录。（持续更新）&lt;/p&gt;</description>
     </item>
     <item>
       <title>近期坏心情（别点）</title>
-      <link>http://localhost:1313/zh/posts/garbage/y24-3-saddddd/</link>
+      <link>https://heyingqiu.github.io/zh/posts/garbage/y24-3-saddddd/</link>
       <pubDate>Fri, 08 Mar 2024 21:01:56 +0800</pubDate>
-      <guid>http://localhost:1313/zh/posts/garbage/y24-3-saddddd/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/garbage/y24-3-saddddd/</guid>
       <description>&lt;p&gt;二十二岁有二十二岁的烦恼。&lt;/p&gt;</description>
     </item>
   </channel>
