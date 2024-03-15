@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>聊天向 on 板栗小店</title>
-    <link>http://localhost:1313/zh/tags/%E8%81%8A%E5%A4%A9%E5%90%91/</link>
+    <link>https://heyingqiu.github.io/zh/tags/%E8%81%8A%E5%A4%A9%E5%90%91/</link>
     <description>Recent content in 聊天向 on 板栗小店</description>
     <image>
       <title>板栗小店</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://heyingqiu.github.io/images/papermod-cover.png</url>
+      <link>https://heyingqiu.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/tags/%E8%81%8A%E5%A4%A9%E5%90%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyingqiu.github.io/zh/tags/%E8%81%8A%E5%A4%A9%E5%90%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>近期坏心情（别点）</title>
-      <link>http://localhost:1313/zh/posts/garbage/y24-3-saddddd/</link>
+      <link>https://heyingqiu.github.io/zh/posts/garbage/y24-3-saddddd/</link>
       <pubDate>Fri, 08 Mar 2024 21:01:56 +0800</pubDate>
-      <guid>http://localhost:1313/zh/posts/garbage/y24-3-saddddd/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/garbage/y24-3-saddddd/</guid>
       <description>&lt;p&gt;二十二岁有二十二岁的烦恼。&lt;/p&gt;</description>
     </item>
     <item>
       <title>噩梦两则</title>
-      <link>http://localhost:1313/zh/posts/ponder/y24-3-dream1/</link>
+      <link>https://heyingqiu.github.io/zh/posts/ponder/y24-3-dream1/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/ponder/y24-3-dream1/</guid>
+      <guid>https://heyingqiu.github.io/zh/posts/ponder/y24-3-dream1/</guid>
       <description>&lt;p&gt;年后，刚回学校才第二个星期状态就不好了，感觉头上压着很多东西。于是乎，昨天就一个晚上做了两个不同的噩梦……（蓝瘦香菇&lt;/p&gt;</description>
     </item>
   </channel>
