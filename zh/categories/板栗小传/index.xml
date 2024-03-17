@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>💭 思 on 板栗小店</title>
-    <link>https://heyingqiu.github.io/zh/posts/ponder/</link>
-    <description>Recent content in 💭 思 on 板栗小店</description>
+    <title>板栗小传 on 板栗小店</title>
+    <link>https://heyingqiu.github.io/zh/categories/%E6%9D%BF%E6%A0%97%E5%B0%8F%E4%BC%A0/</link>
+    <description>Recent content in 板栗小传 on 板栗小店</description>
     <image>
       <title>板栗小店</title>
       <url>https://heyingqiu.github.io/images/papermod-cover.png</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyingqiu.github.io/zh/posts/ponder/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyingqiu.github.io/zh/categories/%E6%9D%BF%E6%A0%97%E5%B0%8F%E4%BC%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的小初高</title>
       <link>https://heyingqiu.github.io/zh/posts/ponder/y24-3-chestnutbio/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://heyingqiu.github.io/zh/posts/ponder/y24-3-chestnutbio/</guid>
       <description>&lt;p&gt;23年末在notion上开作，写过千来字，现在重拾修改并补充。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>噩梦两则</title>
-      <link>https://heyingqiu.github.io/zh/posts/ponder/y24-3-dream1/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/zh/posts/ponder/y24-3-dream1/</guid>
-      <description>&lt;p&gt;年后，刚回学校才第二个星期状态就不好了，感觉头上压着很多东西。于是乎，昨天就一个晚上做了两个不同的噩梦……（蓝瘦香菇&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
