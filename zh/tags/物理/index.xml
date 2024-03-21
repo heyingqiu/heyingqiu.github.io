@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>物理 on 板栗小栈</title>
+    <title>物理 on 板栗小店</title>
     <link>http://localhost:1313/zh/tags/%E7%89%A9%E7%90%86/</link>
-    <description>Recent content in 物理 on 板栗小栈</description>
+    <description>Recent content in 物理 on 板栗小店</description>
     <image>
-      <title>板栗小栈</title>
+      <title>板栗小店</title>
       <url>http://localhost:1313/images/papermod-cover.png</url>
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/tags/%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>好用的链接 之 物理学篇</title>
-      <link>http://localhost:1313/zh/posts/y24-linksphysics/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/posts/y24-linksphysics/</guid>
-      <description>&lt;p&gt;自学物理？&lt;/p&gt;</description>
+      <title>喜欢物理？</title>
+      <link>http://localhost:1313/zh/posts/ponder/y24-3-phythink/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/posts/ponder/y24-3-phythink/</guid>
+      <description>&lt;p&gt;喜欢是不懈的坚持。你渴望力量吗？&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
