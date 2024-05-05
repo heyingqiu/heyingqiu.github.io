@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="4~7章">
@@ -9,17 +9,17 @@
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="宇宙学笔记：Ⅱ 结构演化" />
 <meta property="og:description" content="4~7章" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/cosmology/dodelson2/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://heyingqiu.github.io/docs/cosmology/dodelson2/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2024-03-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-03-14T00:00:00+00:00" />
 
 <title>宇宙学笔记：Ⅱ 结构演化 | heyingqiu</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.ico" >
-<link rel="canonical" href="http://localhost:1313/docs/cosmology/dodelson2/">
+<link rel="canonical" href="https://heyingqiu.github.io/docs/cosmology/dodelson2/">
 <link rel="stylesheet" href="/book.min.4964903a822a7acb10dac6d1ab524833c97fb5f99b141976bcb8a47d539be9c0.css" integrity="sha256-SWSQOoIqessQ2sbRq1JIM8l/tfmbFBl2vLikfVOb6cA=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/zh.search.min.ea7b6b273f32f71d7b9b53f79b043ee0a8530c611c3cd7a86295115f7da64623.js" integrity="sha256-6ntrJz8y9x17m1P3mwQ&#43;4KhTDGEcPNeoYpURX32mRiM=" crossorigin="anonymous"></script>
+  <script defer src="/zh.search.min.01117162ce696b03da2e73975df71aa023b2ed69a5b562dc9b443eccfbcbe56d.js" integrity="sha256-ARFxYs5pawPaLnOXXfcaoCOy7WmltWLcm0Q&#43;zPvL5W0=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 <!--
@@ -27,6 +27,7 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   
+
 </head>
 <body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
@@ -73,7 +74,7 @@ https://github.com/alex-shpak/hugo-book
     <ul>
       
       <li>
-        <a href="http://localhost:1313/en/">
+        <a href="https://heyingqiu.github.io/en/">
           English
         </a>
       </li>
@@ -94,15 +95,19 @@ https://github.com/alex-shpak/hugo-book
 
   <ul>
 <li>
-  <a href="/docs/cosmology/"><strong>Cosmology</strong></a></li>
+  <a href="/docs/cosmology/"><strong>宇宙学</strong></a></li>
 <li><strong>资源分享</strong>
 <ul>
 <li>
   <a href="/docs/studyshare/links/">Links</a></li>
 <li>
   <a href="/docs/studyshare/y24-StudyNote/">板栗笔记</a></li>
+<li>
+  <a href="/docs/studyshare/y24-masterphy/">JP物理学</a></li>
 </ul>
 </li>
+<li>
+  <a href="/publication/"><strong>Publication</strong></a></li>
 </ul>
 <br />
 
@@ -212,7 +217,6 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown book-article"><p>4~7章</p>
-<p><br><p style="text-align: center;">🌰</p><br></p>
 <h2 id="4-物质起源">
   4 物质起源
   <a class="anchor" href="#4-%e7%89%a9%e8%b4%a8%e8%b5%b7%e6%ba%90">#</a>
@@ -226,13 +230,15 @@ https://github.com/alex-shpak/hugo-book
   5.1 光子的无碰撞玻尔兹曼方程
   <a class="anchor" href="#51-%e5%85%89%e5%ad%90%e7%9a%84%e6%97%a0%e7%a2%b0%e6%92%9e%e7%8e%bb%e5%b0%94%e5%85%b9%e6%9b%bc%e6%96%b9%e7%a8%8b">#</a>
 </h3>
-<p>第三章已经得到了玻尔兹曼方程的左边部分，即粒子随时间演化的分布函数。由于光子为玻色子，分布函数考虑玻色-爱因斯坦（BE）分布。由于在非均匀且各项异性的宇宙中，需要在分布函数中再引入一个温度微扰项，该项同时含有位移和动量的变量。然后将这个含温度微扰项的BE坦分布代入玻尔兹曼方程的左边部分，并对方程在不含微扰项的BE分布处做展开，可以得到零阶以及一阶的分布函数随时间的演化方程。
-$$
-\begin{equation}
-f(\boldsymbol{x},p,\hat{\boldsymbol{p}},t)=\left[\exp\left(\frac{p}{T(t)[1+\Theta(\boldsymbol{x},p,\hat{\boldsymbol{p}})]}\right)-1\right]^{-1}
-\end{equation}
-$$
-零阶即代表BE分布随时间演化方程，由于碰撞项在此时平衡状态为零，因此零阶项恒为零，由此可以得出温度和尺度因子的关系，并将此关系代入展开后的一阶项。</p>
+<p>第三章已经得到了玻尔兹曼方程的左边部分，即粒子随时间演化的分布函数。由于光子为玻色子，分布函数考虑玻色-爱因斯坦（BE）分布。由于在非均匀且各项异性的宇宙中，需要在分布函数中再引入一个温度微扰项，该项同时含有位移和动量的变量。然后将这个含温度微扰项的BE坦分布代入玻尔兹曼方程的左边部分，并对方程在不含微扰项的BE分布处做展开，可以得到零阶以及一阶的分布函数随时间的演化方程。</p>
+
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span class="optional">
+  \[
+    f(\boldsymbol{x},p,\hat{\boldsymbol{p}},t)=\left[\exp\left(\frac{p}{T(t)[1&#43;\Theta(\boldsymbol{x},p,\hat{\boldsymbol{p}})]}\right)-1\right]^{-1}\]
+</span>
+<p>零阶即代表BE分布随时间演化方程，由于碰撞项在此时平衡状态为零，因此零阶项恒为零，由此可以得出温度和尺度因子的关系，并将此关系代入展开后的一阶项。</p>
 <p>最终得到的一阶项可以分为前后两部分，第一部分表示在碰撞项缺失的手，分布函数的演变；第二部分表示微扰的引力影响。</p>
 <h3 id="52-碰撞项康普顿散射">
   5.2 碰撞项：康普顿散射
@@ -244,11 +250,10 @@ $$
   <a class="anchor" href="#53-%e5%85%89%e5%ad%90%e7%9a%84%e7%8e%bb%e5%b0%94%e5%85%b9%e6%9b%bc%e6%96%b9%e7%a8%8b">#</a>
 </h3>
 <p>以上两小节分别得到了光子玻尔兹曼方程在各种近似下的左边和右边形式。接下来我们要将它们合在一起并在傅里叶空间中进行讨论。首先引入共形时间，重新得到含三个微扰项以及电子bulk速度变量的线性偏微分方程。然后定义出光子传播关于动量的方向、温度改变的方向以及膨胀宇宙下的光程差，由此得到傅里叶空间下的光子的玻尔兹曼方程。</p>
-<p>$$
-\begin{equation}
-\Theta&rsquo;+ik\mu\Theta+\Phi&rsquo;+ik\mu\Psi=-\tau&rsquo;[\Theta_0-\Theta+\mu u_b]
-\end{equation}
-$$</p>
+<span>
+  \[
+    \Theta&#39;&#43;ik\mu\Theta&#43;\Phi&#39;&#43;ik\mu\Psi=-\tau&#39;[\Theta_0-\Theta&#43;\mu u_b]\]
+</span>
 <h3 id="54-57-暗物质重子中微子的玻尔兹曼方程">
   5.4-5.7 暗物质/重子/中微子的玻尔兹曼方程
   <a class="anchor" href="#54-57-%e6%9a%97%e7%89%a9%e8%b4%a8%e9%87%8d%e5%ad%90%e4%b8%ad%e5%be%ae%e5%ad%90%e7%9a%84%e7%8e%bb%e5%b0%94%e5%85%b9%e6%9b%bc%e6%96%b9%e7%a8%8b">#</a>
@@ -314,14 +319,16 @@ $$</p>
   7.5 The Einstein Boltzmann equations at early times
   <a class="anchor" href="#75-the-einstein-boltzmann-equations-at-early-times">#</a>
 </h3>
-<p>考虑玻尔兹曼方程在很早时期，但是晚于暴涨的结束，此时波数很小，玻尔兹曼方程中乘以波数的项都可以忽略，又因为辐射主导的宇宙，近似得出所有种类的波尔兹曼方程。求解该微分方程可以做一定的假设方程，代入检验后可得，CDM和重子的能量密度和速度的初始条件。</p>
-<p><br><p style="text-align: right;">🌰</p></p></article>
+<p>考虑玻尔兹曼方程在很早时期，但是晚于暴涨的结束，此时波数很小，玻尔兹曼方程中乘以波数的项都可以忽略，又因为辐射主导的宇宙，近似得出所有种类的波尔兹曼方程。求解该微分方程可以做一定的假设方程，代入检验后可得，CDM和重子的能量密度和速度的初始条件。</p></article>
  
       
 
       <footer class="book-footer">
         
   <div class="flex flex-wrap justify-between">
+
+<br><a href="#top" class="top-link"><p style="text-align: right;">🌰</p></a>
+
 
 
 

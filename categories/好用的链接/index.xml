@@ -9,25 +9,18 @@
     <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E5%A5%BD%E7%94%A8%E7%9A%84%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>好用的链接 之 物理学篇 [pinned]</title>
+      <title>物理学</title>
       <link>http://localhost:1313/docs/studyshare/links/y24-linksPhysics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/studyshare/links/y24-linksPhysics/</guid>
-      <description>&lt;p&gt;I love phy&amp;hellip; chestnut!&lt;/p&gt;</description>
+      <description>&lt;p&gt;物理学专业研究常用网站。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>好用的链接 之 建立小站篇</title>
-      <link>http://localhost:1313/docs/studyshare/links/y24-links/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/links/y24-links/</guid>
-      <description>&lt;p&gt;如何建立 Hugo+GitHub 小站？有哪些有趣的博主？来让大神祝你一臂之力。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>好用的链接 之 日本留学篇</title>
+      <title>日本留学</title>
       <link>http://localhost:1313/docs/studyshare/links/y24-JPphysics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/studyshare/links/y24-JPphysics/</guid>
-      <description>&lt;p&gt;日本留学信息获取。（侧重物理专业）&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本人二流学院物理小菜鸡，不要信我。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;p&gt;日本留学信息获取。（侧重物理专业）&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

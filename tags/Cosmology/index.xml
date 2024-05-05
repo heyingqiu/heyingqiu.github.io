@@ -15,26 +15,5 @@
       <guid>http://localhost:1313/posts/y24-05-bscproject/</guid>
       <description>&lt;p&gt;写完后感觉也还好，通过AI的帮助下，其实现在很快地就能完成一篇像模像样的小论文。但是还是需要自己去找文献，找方法，一味的靠AI也是不通的。&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>宇宙学笔记：Ⅰ 宇宙膨胀</title>
-      <link>http://localhost:1313/docs/cosmology/dodelson1/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cosmology/dodelson1/</guid>
-      <description>&lt;p&gt;1~3章&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>宇宙学笔记：Ⅱ 结构演化</title>
-      <link>http://localhost:1313/docs/cosmology/dodelson2/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cosmology/dodelson2/</guid>
-      <description>&lt;p&gt;4~7章&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>宇宙学笔记：Ⅲ 结构生长</title>
-      <link>http://localhost:1313/docs/cosmology/dodelson3/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cosmology/dodelson3/</guid>
-      <description>&lt;p&gt;8~14章&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

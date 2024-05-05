@@ -6,28 +6,14 @@
     <description>Recent content in Physics Study on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/Physics-Study/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>物理笔记分享 [pinned]</title>
-      <link>http://localhost:1313/docs/studyshare/y24-StudyNote/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/y24-StudyNote/</guid>
-      <description>&lt;p&gt;学习笔记更新记录。（持续更新）&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>好用的链接 之 物理学篇 [pinned]</title>
-      <link>http://localhost:1313/docs/studyshare/links/y24-linksPhysics/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/links/y24-linksPhysics/</guid>
-      <description>&lt;p&gt;I love phy&amp;hellip; chestnut!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>宇宙学笔记：Ⅰ 宇宙膨胀</title>
       <link>http://localhost:1313/docs/cosmology/dodelson1/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/cosmology/dodelson1/</guid>
-      <description>&lt;p&gt;1~3章&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;modern-cosmology&#34;&gt;&#xD;&#xA;  Modern Cosmology&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#modern-cosmology&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;书1~3章&lt;/p&gt;</description>
     </item>
     <item>
       <title>宇宙学笔记：Ⅱ 结构演化</title>
