@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>留学 on heyingqiu</title>
+    <link>http://localhost:1313/tags/%E7%95%99%E5%AD%A6/</link>
+    <description>Recent content in 留学 on heyingqiu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%95%99%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JP Physics Master 申请</title>
+      <link>http://localhost:1313/docs/studyshare/y24-masterphy/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/studyshare/y24-masterphy/</guid>
+      <description>&lt;p&gt;没时间了，迷茫 ing&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>好用的链接 之 日本留学篇</title>
+      <link>http://localhost:1313/docs/studyshare/links/y24-JPphysics/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/studyshare/links/y24-JPphysics/</guid>
+      <description>&lt;p&gt;日本留学信息获取。（侧重物理专业）&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本人二流学院物理小菜鸡，不要信我。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

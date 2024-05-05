@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on heyingqiu</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on heyingqiu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/docs/aboutme/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/aboutme/</guid>
+      <description>About me&#xD;#&#xD;哈啰，我是板栗。&#xD;Hello，I&amp;rsquo;m Chestnut.&#xD;🌰&#xA;Fields&#xD;#&#xD;光电信息科学与工程（本科理学；expected） 宇宙学（BSc论文课题；on going） SNS&#xD;#&#xD;&amp;gt;&amp;gt; 📫 he.yingqiu@hotmail.com &amp;gt;&amp;gt; 🐧 844642022 &amp;gt;&amp;gt; 📺&#xD;BiliBili（Vlog）&#xA;Hobbies&#xD;#&#xD;🏸 羽毛球（无奈没球友+腿伤） ⚛️ 理论物理（宇宙！）&#xA;📺 请回答1988（韩剧）、强风吹拂（jp动漫）、进击的巨人（jp动漫）&#xA;Important Moments&#xD;#&#xD;2002.08 🦄 种子播种（出生） 2008.09 🌱 开始发芽（九年义务教育） 2020.07 🪄 第一次收获（被迫经历历史未有过之高考延期） 2022.04 🏥 第一次改造（半月板切除术&amp;amp;全麻） 2023.10 🍙 第一次出土认识外国板栗（交换留学） Current 💩 生长环境不稳定，正在申请KEK，不知道能不能成功 📓&#xA;Activities Notes&#xD;#&#xD;2024.05.03 本科论文初稿完成 🌰</description>
+    </item>
+  </channel>
+</rss>
