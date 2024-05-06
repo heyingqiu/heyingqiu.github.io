@@ -159,5 +159,15 @@
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://heyingqiu.github.io/publication/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heyingqiu.github.io/en/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://heyingqiu.github.io/publication/"
+                />
   </url>
 </urlset>

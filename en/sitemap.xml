@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://heyingqiu.github.io/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://heyingqiu.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://heyingqiu.github.io/en/"
-                />
-  </url><url>
     <loc>https://heyingqiu.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,6 +12,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://heyingqiu.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://heyingqiu.github.io/en/publication/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://heyingqiu.github.io/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heyingqiu.github.io/en/publication/"
+                />
+  </url><url>
+    <loc>https://heyingqiu.github.io/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://heyingqiu.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://heyingqiu.github.io/en/"
                 />
   </url><url>
     <loc>https://heyingqiu.github.io/en/tags/</loc>
