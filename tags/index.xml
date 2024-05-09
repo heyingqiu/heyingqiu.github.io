@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on heyingqiu</title>
-    <link>https://heyingqiu.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://heyingqiu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>噩梦</title>
-      <link>https://heyingqiu.github.io/tags/%E5%99%A9%E6%A2%A6/</link>
+      <link>http://localhost:1313/tags/%E5%99%A9%E6%A2%A6/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E5%99%A9%E6%A2%A6/</guid>
+      <guid>http://localhost:1313/tags/%E5%99%A9%E6%A2%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>剪发</title>
-      <link>https://heyingqiu.github.io/tags/%E5%89%AA%E5%8F%91/</link>
+      <link>http://localhost:1313/tags/%E5%89%AA%E5%8F%91/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E5%89%AA%E5%8F%91/</guid>
+      <guid>http://localhost:1313/tags/%E5%89%AA%E5%8F%91/</guid>
       <description></description>
     </item>
     <item>
       <title>聊天向</title>
-      <link>https://heyingqiu.github.io/tags/%E8%81%8A%E5%A4%A9%E5%90%91/</link>
+      <link>http://localhost:1313/tags/%E8%81%8A%E5%A4%A9%E5%90%91/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E8%81%8A%E5%A4%A9%E5%90%91/</guid>
+      <guid>http://localhost:1313/tags/%E8%81%8A%E5%A4%A9%E5%90%91/</guid>
       <description></description>
     </item>
     <item>
       <title>物理</title>
-      <link>https://heyingqiu.github.io/tags/%E7%89%A9%E7%90%86/</link>
+      <link>http://localhost:1313/tags/%E7%89%A9%E7%90%86/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E7%89%A9%E7%90%86/</guid>
+      <guid>http://localhost:1313/tags/%E7%89%A9%E7%90%86/</guid>
       <description></description>
     </item>
     <item>
       <title>宇宙学</title>
-      <link>https://heyingqiu.github.io/tags/%E5%AE%87%E5%AE%99%E5%AD%A6/</link>
+      <link>http://localhost:1313/tags/%E5%AE%87%E5%AE%99%E5%AD%A6/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E5%AE%87%E5%AE%99%E5%AD%A6/</guid>
+      <guid>http://localhost:1313/tags/%E5%AE%87%E5%AE%99%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGPT</title>
-      <link>https://heyingqiu.github.io/tags/ChatGPT/</link>
+      <link>http://localhost:1313/tags/ChatGPT/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/ChatGPT/</guid>
+      <guid>http://localhost:1313/tags/ChatGPT/</guid>
       <description></description>
     </item>
     <item>
       <title>电影</title>
-      <link>https://heyingqiu.github.io/tags/%E7%94%B5%E5%BD%B1/</link>
+      <link>http://localhost:1313/tags/%E7%94%B5%E5%BD%B1/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E7%94%B5%E5%BD%B1/</guid>
+      <guid>http://localhost:1313/tags/%E7%94%B5%E5%BD%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>消极</title>
-      <link>https://heyingqiu.github.io/tags/%E6%B6%88%E6%9E%81/</link>
+      <link>http://localhost:1313/tags/%E6%B6%88%E6%9E%81/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/tags/%E6%B6%88%E6%9E%81/</guid>
+      <guid>http://localhost:1313/tags/%E6%B6%88%E6%9E%81/</guid>
       <description></description>
     </item>
   </channel>
