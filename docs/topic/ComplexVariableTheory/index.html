@@ -25,7 +25,7 @@ typical problems answering
 <link rel="canonical" href="https://heyingqiu.github.io/docs/topic/ComplexVariableTheory/">
 <link rel="stylesheet" href="/book.min.c8cf22403d3f148838c54b0dd5070fa13fc862dc218aaf4d00483664cd8536d3.css" integrity="sha256-yM8iQD0/FIg4xUsN1QcPoT/IYtwhiq9NAEg2ZM2FNtM=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/zh.search.min.8922ab9f7693a27be64ab39d3016096e261d1d5ae7114b7e4d2b70b66be7806d.js" integrity="sha256-iSKrn3aTonvmSrOdMBYJbiYdHVrnEUt&#43;TStwtmvngG0=" crossorigin="anonymous"></script>
+  <script defer src="/zh.search.min.43cae7653f2a0ec9066a4d9e509045a7ef2803c5c3678e9bd07dd3012a23848b.js" integrity="sha256-Q8rnZT8qDskGak2eUJBFp&#43;8oA8XDZ46b0H3TASojhIs=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 
@@ -178,6 +178,26 @@ https://github.com/alex-shpak/hugo-book
         
   
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
 
 <div class="flex align-center justify-between">
   <label for="menu-control">
@@ -269,23 +289,13 @@ f(z_0), &amp; z_0 \text{  within the contour},    \
   Residue Theorem
   <a class="anchor" href="#residue-theorem">#</a>
 </h3>
-<p>$$\oint_Cf(z)dz=2\pi i ,(\text{sum of the enclosed residues})\
+<p>$$\oint_Cf(z)dz=2\pi i \sum \text{residues}$$</p>
+<p>$$
 a_{-1}=\frac{1}{(n-1)!}\lim_{z\rightarrow z_0}\left[\frac{d^{n-1}}{dz^{n-1}}((z-z_0)^nf(z))\right]$$</p>
 <h2 id="evaluation-of-definite-integrals">
   Evaluation of definite integrals
   <a class="anchor" href="#evaluation-of-definite-integrals">#</a>
 </h2>
-<ol>
-<li>
-<p>$$\begin{aligned}
-I &amp;=\int_0^{2\pi}f(\sin\theta,\cos\theta)d\theta =-i\oint f\left(\frac{z-z^{-1}}{2i},\frac{z+z^{-1}}{2i}\right)\frac{dz}{z}\
-&amp;=(-i)2\pi i\sum \text{residues within the unit circle} \end{aligned}$$
-Note that use the redidues of $f/z$</p>
-</li>
-<li>
-<p>$$I=\int_{-\infty}^{\infty}f(x)dx=\oint f(z)dz=2\pi i\sum \text{residues }\text{ (upper half-plane)}$$</p>
-</li>
-</ol>
 <h3 id="jordans-lemma">
   Jordan&rsquo;s lemma
   <a class="anchor" href="#jordans-lemma">#</a>
@@ -293,12 +303,27 @@ Note that use the redidues of $f/z$</p>
 <p>If $\lim_{R=\infty}f(z)=0$ for all $z=Re^{i\theta}$ in the range $0\leq\theta\leq\pi$, then
 $$\lim_{R\rightarrow\infty}\int_Ce^{iaz}f(z)dz=0,$$
 where $z&gt;0$ and $C$ is a semicircle of radius $R$ in the upper half-plane with center at the origin.</p>
-<ol start="3">
-<li>$$I=\int_{-\infty}^{\infty}f(x)e^{-ax}dx=2\pi i\sum \text{residues of }e^{iaz}f(z) \text{ (upper half-plane)}$$</li>
-</ol>
+<h4 id="1-02pi">
+  1. $(0,2\pi)$
+  <a class="anchor" href="#1-02pi">#</a>
+</h4>
+<p>$$\begin{aligned}
+I &amp;=\int_0^{2\pi}f(\sin\theta,\cos\theta)d\theta =-i\oint f\left(\frac{z-z^{-1}}{2i},\frac{z+z^{-1}}{2i}\right)\frac{dz}{z}\
+&amp;=(-i)2\pi i\sum \text{residues} \end{aligned}$$</p>
+<p>Note that use the redidues of $f/z$, and the the residues are in within the unit circle.</p>
+<h4 id="2--inftyinfty">
+  2. $(-\infty,\infty)$
+  <a class="anchor" href="#2--inftyinfty">#</a>
+</h4>
+<p>$$I=\int_{-\infty}^{\infty}f(x)dx=\oint f(z)dz=2\pi i\sum \text{residues }\text{ (upper half-plane)}$$</p>
+<h4 id="3-eiax">
+  3. $e^{iax}$
+  <a class="anchor" href="#3-eiax">#</a>
+</h4>
+<p>$$I=\int_{-\infty}^{\infty}f(x)e^{-ax}dx=2\pi i\sum \text{residues of }e^{iaz}f(z) \text{ (upper half-plane)}$$</p>
 <br>
 <hr>
-<br>
+<hr>
 <h1 id="examples">
   Examples
   <a class="anchor" href="#examples">#</a>
@@ -312,6 +337,8 @@ $\oint\frac{e^{iz}}{2iz}dz=I+\int_{C_r}\frac{e^{iz}}{2iz}dz+\int_{C_R}\frac{e^{i
 <li>da</li>
 </ol>
 <br>
+<hr>
+<hr>
 <p>Reference: <br>
 [1] Mathematical Methods for Physcicists, Seventh Edition.</p>
 <p>Other chapter notes link:</p></article>
