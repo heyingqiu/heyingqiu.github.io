@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Integral, derivative&hellip;">
+<meta name="description" content="
+conclusion, find proof in textbook. 
+typical problems answering
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="微积分" />
-<meta property="og:description" content="Integral, derivative&hellip;" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Complex Variable Theory" />
+<meta property="og:description" content="
+conclusion, find proof in textbook. 
+typical problems answering
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://heyingqiu.github.io/docs/topic/calculus/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://heyingqiu.github.io/docs/topic/ComplexVariableTheory/" /><meta property="article:section" content="docs" />
 
 <meta property="article:modified_time" content="2024-05-23T17:00:35+08:00" />
 
-<title>微积分 | heyingqiu</title>
+<title>Complex Variable Theory | heyingqiu</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.ico" >
-<link rel="canonical" href="https://heyingqiu.github.io/docs/topic/calculus/">
+<link rel="canonical" href="https://heyingqiu.github.io/docs/topic/ComplexVariableTheory/">
 <link rel="stylesheet" href="/book.min.c8cf22403d3f148838c54b0dd5070fa13fc862dc218aaf4d00483664cd8536d3.css" integrity="sha256-yM8iQD0/FIg4xUsN1QcPoT/IYtwhiq9NAEg2ZM2FNtM=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
   <script defer src="/zh.search.min.8922ab9f7693a27be64ab39d3016096e261d1d5ae7114b7e4d2b70b66be7806d.js" integrity="sha256-iSKrn3aTonvmSrOdMBYJbiYdHVrnEUt&#43;TStwtmvngG0=" crossorigin="anonymous"></script>
@@ -172,33 +178,13 @@ https://github.com/alex-shpak/hugo-book
         
   
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          
-          
-          delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '$', right: '$', display: false},
-              {left: '\\(', right: '\\)', display: false},
-              {left: '\\[', right: '\\]', display: true}
-          ],
-          
-          throwOnError : false
-        });
-    });
-</script>
-
 
 <div class="flex align-center justify-between">
   <label for="menu-control">
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>微积分</strong>
+  <strong>Complex Variable Theory</strong>
 
   <label for="toc-control">
     
@@ -214,13 +200,24 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#theorems">Theorems</a>
       <ul>
-        <li><a href="#lists-of-integral">Lists of Integral</a></li>
-        <li><a href="#lists-of-derivative">Lists of Derivative</a></li>
-        <li><a href="#more-information">More information</a></li>
+        <li>
+          <ul>
+            <li><a href="#cauchy-riemann-conditions">Cauchy-Riemann conditions</a></li>
+            <li><a href="#cauchys-theorem">Cauchy&rsquo;s Theorem</a></li>
+            <li><a href="#cauchys-integral-formula">Cauchy&rsquo;s integral formula</a></li>
+            <li><a href="#residue-theorem">Residue Theorem</a></li>
+          </ul>
+        </li>
+        <li><a href="#evaluation-of-definite-integrals">Evaluation of definite integrals</a>
+          <ul>
+            <li><a href="#jordans-lemma">Jordan&rsquo;s lemma</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
+    <li><a href="#examples">Examples</a></li>
   </ul>
 </nav>
 
@@ -233,44 +230,91 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><p>Integral, derivative&hellip;</p>
-<h2 id="lists-of-integral">
-  Lists of Integral
-  <a class="anchor" href="#lists-of-integral">#</a>
-</h2>
-<p>($a&gt;0$)</p>
+  <article class="markdown book-article"><blockquote>
+<p>conclusion, find proof in textbook. <br>
+typical problems answering</p>
+</blockquote>
 <ul>
-<li>
-<p>$\int_{-\infty}^\infty e^{-a(x+b)^2}dx=\sqrt{\frac{\pi}{a}}$</p>
-</li>
-<li>
-<p>$\int_0^\infty x^{2n}e^{-ax^2}dx=\frac{(2n-1)!!}{a^{n}2^{n+1}}$</p>
-</li>
-<li>
-<p>$\int_0^\infty x^{2n+1}e^{-ax^2}dx=\frac{n!}{2a^{n+1}}$</p>
-</li>
-<li>
-<p>$\int_0^\infty \frac{\sin x}{x}dx=\frac{\pi}{2}$</p>
-</li>
+<li>$C$ is in couterclockwise direction</li>
 </ul>
-<h2 id="lists-of-derivative">
-  Lists of Derivative
-  <a class="anchor" href="#lists-of-derivative">#</a>
+<h1 id="theorems">
+  Theorems
+  <a class="anchor" href="#theorems">#</a>
+</h1>
+<h3 id="cauchy-riemann-conditions">
+  Cauchy-Riemann conditions
+  <a class="anchor" href="#cauchy-riemann-conditions">#</a>
+</h3>
+<p>$$\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y},\quad \frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}.$$</p>
+<p>Proof:</p>
+<p>$$\lim_{\delta z\rightarrow 0}\frac{\delta f}{\delta z}=$$</p>
+<h3 id="cauchys-theorem">
+  Cauchy&rsquo;s Theorem
+  <a class="anchor" href="#cauchys-theorem">#</a>
+</h3>
+<p>$$\oint_C f(z)dz=0$$</p>
+<p>$$\oint_C(z-z_0)^ndz=\begin{cases}
+0, &amp; n\neq 1,\
+2\pi i, &amp; n=-1.
+\end{cases}$$</p>
+<h3 id="cauchys-integral-formula">
+  Cauchy&rsquo;s integral formula
+  <a class="anchor" href="#cauchys-integral-formula">#</a>
+</h3>
+<p>$$\frac{1}{2\pi i}\oint_C\frac{f(z)}{z-z_0}dz=\begin{cases}
+f(z_0), &amp; z_0 \text{  within the contour},    \
+0, &amp; z_0 \text{ exterior to the contour}.
+\end{cases}$$</p>
+<h3 id="residue-theorem">
+  Residue Theorem
+  <a class="anchor" href="#residue-theorem">#</a>
+</h3>
+<p>$$\oint_Cf(z)dz=2\pi i ,(\text{sum of the enclosed residues})\
+a_{-1}=\frac{1}{(n-1)!}\lim_{z\rightarrow z_0}\left[\frac{d^{n-1}}{dz^{n-1}}((z-z_0)^nf(z))\right]$$</p>
+<h2 id="evaluation-of-definite-integrals">
+  Evaluation of definite integrals
+  <a class="anchor" href="#evaluation-of-definite-integrals">#</a>
 </h2>
-<ul>
-<li>$(\tan x)'=\sec^2 x$</li>
-<li>$(\sin^{-1}x)'=\frac{1}{\sqrt{1-x^2}}$</li>
-<li>$(\sinh^{-1})'=\frac{1}{\sqrt{1+x^2}}$</li>
-</ul>
-<h2 id="more-information">
-  More information
-  <a class="anchor" href="#more-information">#</a>
-</h2>
-<p>[1] 
-  <a href="https://en.wikipedia.org/wiki/Lists_of_integrals">https://en.wikipedia.org/wiki/Lists_of_integrals</a><br>
-[2] 
-  <a href="https://en.wikipedia.org/wiki/Differentiation_rules">https://en.wikipedia.org/wiki/Differentiation_rules</a></p>
-<hr></article>
+<ol>
+<li>
+<p>$$\begin{aligned}
+I &amp;=\int_0^{2\pi}f(\sin\theta,\cos\theta)d\theta =-i\oint f\left(\frac{z-z^{-1}}{2i},\frac{z+z^{-1}}{2i}\right)\frac{dz}{z}\
+&amp;=(-i)2\pi i\sum \text{residues within the unit circle} \end{aligned}$$
+Note that use the redidues of $f/z$</p>
+</li>
+<li>
+<p>$$I=\int_{-\infty}^{\infty}f(x)dx=\oint f(z)dz=2\pi i\sum \text{residues }\text{ (upper half-plane)}$$</p>
+</li>
+</ol>
+<h3 id="jordans-lemma">
+  Jordan&rsquo;s lemma
+  <a class="anchor" href="#jordans-lemma">#</a>
+</h3>
+<p>If $\lim_{R=\infty}f(z)=0$ for all $z=Re^{i\theta}$ in the range $0\leq\theta\leq\pi$, then
+$$\lim_{R\rightarrow\infty}\int_Ce^{iaz}f(z)dz=0,$$
+where $z&gt;0$ and $C$ is a semicircle of radius $R$ in the upper half-plane with center at the origin.</p>
+<ol start="3">
+<li>$$I=\int_{-\infty}^{\infty}f(x)e^{-ax}dx=2\pi i\sum \text{residues of }e^{iaz}f(z) \text{ (upper half-plane)}$$</li>
+</ol>
+<br>
+<hr>
+<br>
+<h1 id="examples">
+  Examples
+  <a class="anchor" href="#examples">#</a>
+</h1>
+<p>not complete, just some steps</p>
+<ol start="0">
+<li>dfa</li>
+<li>da</li>
+<li>$$I=\int_0^\infty\frac{\sin x}{x}dx$$
+$\oint\frac{e^{iz}}{2iz}dz=I+\int_{C_r}\frac{e^{iz}}{2iz}dz+\int_{C_R}\frac{e^{iz}}{2iz}dz=0$</li>
+<li>da</li>
+</ol>
+<br>
+<p>Reference: <br>
+[1] Mathematical Methods for Physcicists, Seventh Edition.</p>
+<p>Other chapter notes link:</p></article>
  
       
 
@@ -317,13 +361,24 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#theorems">Theorems</a>
       <ul>
-        <li><a href="#lists-of-integral">Lists of Integral</a></li>
-        <li><a href="#lists-of-derivative">Lists of Derivative</a></li>
-        <li><a href="#more-information">More information</a></li>
+        <li>
+          <ul>
+            <li><a href="#cauchy-riemann-conditions">Cauchy-Riemann conditions</a></li>
+            <li><a href="#cauchys-theorem">Cauchy&rsquo;s Theorem</a></li>
+            <li><a href="#cauchys-integral-formula">Cauchy&rsquo;s integral formula</a></li>
+            <li><a href="#residue-theorem">Residue Theorem</a></li>
+          </ul>
+        </li>
+        <li><a href="#evaluation-of-definite-integrals">Evaluation of definite integrals</a>
+          <ul>
+            <li><a href="#jordans-lemma">Jordan&rsquo;s lemma</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
+    <li><a href="#examples">Examples</a></li>
   </ul>
 </nav>
 
