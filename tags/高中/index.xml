@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>高中 on heyingqiu</title>
-    <link>https://heyingqiu.github.io/tags/%E9%AB%98%E4%B8%AD/</link>
+    <link>http://localhost:1313/tags/%E9%AB%98%E4%B8%AD/</link>
     <description>Recent content in 高中 on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 21 Jul 2024 10:18:45 +0800</lastBuildDate>
-    <atom:link href="https://heyingqiu.github.io/tags/%E9%AB%98%E4%B8%AD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%AB%98%E4%B8%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自我推荐：暑期家教1对1 📚</title>
-      <link>https://heyingqiu.github.io/posts/y24-06-tutorrecommend/</link>
+      <link>http://localhost:1313/posts/y24-06-tutorrecommend/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/posts/y24-06-tutorrecommend/</guid>
+      <guid>http://localhost:1313/posts/y24-06-tutorrecommend/</guid>
       <description>&lt;p&gt;第一次发布自己找学生的家教信息，简单聊聊这次的小经历。&lt;/p&gt;</description>
     </item>
   </channel>

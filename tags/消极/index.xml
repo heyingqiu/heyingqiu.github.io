@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>消极 on heyingqiu</title>
-    <link>https://heyingqiu.github.io/tags/%E6%B6%88%E6%9E%81/</link>
+    <link>http://localhost:1313/tags/%E6%B6%88%E6%9E%81/</link>
     <description>Recent content in 消极 on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 09 May 2024 21:39:31 +0800</lastBuildDate>
-    <atom:link href="https://heyingqiu.github.io/tags/%E6%B6%88%E6%9E%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%B6%88%E6%9E%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>噩梦两则</title>
-      <link>https://heyingqiu.github.io/posts/y24-3-dream1/</link>
+      <link>http://localhost:1313/posts/y24-3-dream1/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://heyingqiu.github.io/posts/y24-3-dream1/</guid>
+      <guid>http://localhost:1313/posts/y24-3-dream1/</guid>
       <description>&lt;p&gt;年后，刚回学校才第二个星期状态就不好了，感觉头上压着很多东西。于是乎，昨天就一个晚上做了两个不同的噩梦……（蓝瘦香菇&lt;/p&gt;</description>
     </item>
   </channel>
