@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>heyingqiu</title>
-    <link>http://localhost:1313/docs/cosmology/</link>
+    <link>https://heyingqiu.github.io/docs/cosmology/</link>
     <description>Recent content on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/docs/cosmology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyingqiu.github.io/docs/cosmology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>宇宙学笔记：Ⅰ 宇宙膨胀</title>
-      <link>http://localhost:1313/docs/cosmology/dodelson1/</link>
+      <link>https://heyingqiu.github.io/docs/cosmology/dodelson1/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cosmology/dodelson1/</guid>
+      <guid>https://heyingqiu.github.io/docs/cosmology/dodelson1/</guid>
       <description>&lt;p&gt;书1~3章，对宇宙学的前置知识进行讲解。&lt;/p&gt;</description>
     </item>
     <item>
       <title>宇宙学笔记：Ⅱ 结构演化</title>
-      <link>http://localhost:1313/docs/cosmology/dodelson2/</link>
+      <link>https://heyingqiu.github.io/docs/cosmology/dodelson2/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cosmology/dodelson2/</guid>
+      <guid>https://heyingqiu.github.io/docs/cosmology/dodelson2/</guid>
       <description>&lt;p&gt;4~7章&lt;/p&gt;</description>
     </item>
     <item>
       <title>宇宙学笔记：Ⅲ 结构生长</title>
-      <link>http://localhost:1313/docs/cosmology/dodelson3/</link>
+      <link>https://heyingqiu.github.io/docs/cosmology/dodelson3/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cosmology/dodelson3/</guid>
+      <guid>https://heyingqiu.github.io/docs/cosmology/dodelson3/</guid>
       <description>&lt;p&gt;8~14章&lt;/p&gt;</description>
     </item>
   </channel>

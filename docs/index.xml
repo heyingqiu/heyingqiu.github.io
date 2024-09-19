@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on heyingqiu</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>https://heyingqiu.github.io/docs/</link>
     <description>Recent content in Docs on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 10 Sep 2024 21:24:19 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyingqiu.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/docs/aboutme/</link>
+      <link>https://heyingqiu.github.io/docs/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/aboutme/</guid>
+      <guid>https://heyingqiu.github.io/docs/aboutme/</guid>
       <description>About me # 哈啰，我是板栗，以下是一些个人资料，欢迎享用。&#xA;活动记录 # 日期 表示已经完成，未变灰表示待办（可能有延迟）。&#xA;24 下 10.01 出发留学 24 中 08.30~09.06 上海+西安游玩&#xA;08.30 八三夭上海演唱会&#xA;07.01~07.14 军训补训&#xA;06.27 医院看jio 06.24 光设期末考&#xA;06.21 校毕业典礼 06.20 荣誉证书授予典礼+健行毕业晚会 06.18 理学院业典礼 06.17 论文归档 06.10 返校&#xA;06.06 回家&#xA;06.02 ACG演唱会&#xA;05.27 KEK面试&#xA;05.26 本科论文首次答辩 05.24 KEK笔试&#xA;05.11 老妈来杭 05.10 补牙 05.07 完成数模论文&#xA;05.03 本科论文初稿完成 学习 # 高中（台州市路桥中学，2017 - 2020）&#xA;语文（94）/ 数学（121）/ 英语（12） 选课：物理（91）/ 生物（94）/ 技术（91） 大学 （浙江工业大学，2020-2024）&#xA;大一 高等数学、线性代数 普通物理（上） 大二 数学物理方法 普通物理（下）、原子核物理 理论力学/电动力学/量子力学/统计力学 工程光学、模电、数电、信号与系统 大三/大四 物理光学、光学设计、光学通信 广义相对论 (intro)、宇宙学 (intro) 研究生 （日本高能加速器研究所 KEK，2024-）</description>
     </item>
   </channel>

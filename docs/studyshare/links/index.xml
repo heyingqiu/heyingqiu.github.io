@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links 分享 on heyingqiu</title>
-    <link>http://localhost:1313/docs/studyshare/links/</link>
+    <link>https://heyingqiu.github.io/docs/studyshare/links/</link>
     <description>Recent content in Links 分享 on heyingqiu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/docs/studyshare/links/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://heyingqiu.github.io/docs/studyshare/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>留学日本</title>
-      <link>http://localhost:1313/docs/studyshare/links/y24-masterphy/</link>
+      <link>https://heyingqiu.github.io/docs/studyshare/links/y24-masterphy/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/links/y24-masterphy/</guid>
+      <guid>https://heyingqiu.github.io/docs/studyshare/links/y24-masterphy/</guid>
       <description>&lt;p&gt;日本留学&lt;/p&gt;</description>
     </item>
     <item>
       <title>建立小站</title>
-      <link>http://localhost:1313/docs/studyshare/links/y24-links/</link>
+      <link>https://heyingqiu.github.io/docs/studyshare/links/y24-links/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/links/y24-links/</guid>
+      <guid>https://heyingqiu.github.io/docs/studyshare/links/y24-links/</guid>
       <description>&lt;p&gt;个人在建立 Hugo+GitHub 小站的时候遇到的links.&lt;/p&gt;</description>
     </item>
     <item>
       <title>日本留学</title>
-      <link>http://localhost:1313/docs/studyshare/links/y24-JPphysics/</link>
+      <link>https://heyingqiu.github.io/docs/studyshare/links/y24-JPphysics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/links/y24-JPphysics/</guid>
-      <description>&lt;p&gt;物理学专业日本留学信息获取。（其他专业可参考）&#xA;点击&#xA;  &lt;a href=&#34;http://localhost:1313/&#34;&gt;&lt;img src=&#34;https://cdn.hugeicons.com/icons/mouse-left-click-02-stroke-rounded.svg&#34; alt=&#34;mouse-left-click-02&#34; width=&#34;20&#34; height=&#34;20&#34; /&gt;&lt;/a&gt;跳转页面。&lt;/p&gt;</description>
+      <guid>https://heyingqiu.github.io/docs/studyshare/links/y24-JPphysics/</guid>
+      <description>&lt;p&gt;物理学专业日本留学信息获取。（其他专业可参考）&#xA;点击&#xA;  &lt;a href=&#34;https://heyingqiu.github.io/&#34;&gt;&lt;img src=&#34;https://cdn.hugeicons.com/icons/mouse-left-click-02-stroke-rounded.svg&#34; alt=&#34;mouse-left-click-02&#34; width=&#34;20&#34; height=&#34;20&#34; /&gt;&lt;/a&gt;跳转页面。&lt;/p&gt;</description>
     </item>
     <item>
       <title>物理学</title>
-      <link>http://localhost:1313/docs/studyshare/links/y24-linksPhysics/</link>
+      <link>https://heyingqiu.github.io/docs/studyshare/links/y24-linksPhysics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/studyshare/links/y24-linksPhysics/</guid>
+      <guid>https://heyingqiu.github.io/docs/studyshare/links/y24-linksPhysics/</guid>
       <description>&lt;p&gt;物理学专业研究常用网站。&lt;/p&gt;</description>
     </item>
   </channel>
